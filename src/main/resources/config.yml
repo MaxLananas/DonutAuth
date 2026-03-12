@@ -1,0 +1,20 @@
+# Pour un serveur "DonutSMP" :
+display-name: "DonutSMP"
+name-part1: "Donut"
+name-color1: "gold"
+name-part2: "SMP"
+name-color2: "white"
+
+# Pour un serveur "PvPLand" :
+display-name: "PvPLand"
+name-part1: "PvP"
+name-color1: "red"
+name-part2: "Land"
+name-color2: "yellow"
+
+# Pour un serveur "SkyBlock" :
+display-name: "SkyBlock"
+name-part1: "Sky"
+name-color1: "aqua"
+name-part2: "Block"
+name-color2: "green"

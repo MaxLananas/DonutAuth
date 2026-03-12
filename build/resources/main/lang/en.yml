@@ -1,0 +1,72 @@
+# English - LockAuth
+# Use {name1}, {name2}, {color1}, {color2} for custom branding
+# These are replaced by values from config.yml
+
+prefix: "<{color1}><bold>{name1}</bold></{color1}><{color2}><bold>{name2}</bold></{color2}> <dark_gray>|</dark_gray> "
+line: "<{color1}>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</{color1}>"
+logo: "       <{color1}><bold>{name1}</bold></{color1}><{color2}><bold>{name2}</bold></{color2}>"
+
+join-registered: "<gray>Welcome back, <{color1}>{player}</{color1}>!</gray>"
+join-registered-instruction: "<gray>Log in to continue:</gray>"
+join-registered-command: "<{color1}><bold>/login <password></bold></{color1}>"
+join-new: "<gray>Welcome, <green>{player}</green>!</gray>"
+join-new-instruction: "<gray>Create your account to play:</gray>"
+join-new-command: "<{color1}><bold>/register <password> <password></bold></{color1}>"
+join-new-hint: "<dark_gray>Type your password twice to confirm.</dark_gray>"
+join-premium: "<gray>Welcome, <aqua>{player}</aqua>! <green>Premium account detected.</green></gray>"
+
+title-registered: "<{color1}><bold>Welcome back!</bold></{color1}>"
+title-registered-sub: "<gray>/login <password></gray>"
+title-new: "<green><bold>Welcome!</bold></green>"
+title-new-sub: "<gray>/register <password> <password></gray>"
+title-premium: "<aqua><bold>Premium</bold></aqua>"
+title-premium-sub: "<green>Auto-authenticated!</green>"
+
+actionbar-login: "<{color1}>Type <bold>/login <password></bold> to connect</{color1}>"
+actionbar-register: "<{color1}>Type <bold>/register <password> <password></bold> to create your account</{color1}>"
+actionbar-authenticated: "<green>Authenticated! Enjoy your game.</green>"
+
+register-success: "<green><bold>Account created successfully!</bold></green>"
+register-welcome: "<gray>Welcome to the server, <{color1}><bold>{player}</bold></{color1}>!</gray>"
+register-next-time: "<dark_gray>Next time, use:</dark_gray>"
+register-next-command: "<yellow>/login <password></yellow>"
+register-already-registered: "<red>You already have an account!</red>"
+register-already-registered-hint: "<gray>Use: <{color1}>/login <password></{color1}></gray>"
+register-password-mismatch: "<red>Passwords do not match!</red>"
+register-password-mismatch-hint: "<gray>Retry: /register <password> <password></gray>"
+register-too-short: "<red>Password too short! Minimum {min} characters.</red>"
+register-too-long: "<red>Password too long! Maximum {max} characters.</red>"
+register-usage: "<yellow>Usage: /register <password> <password></yellow>"
+register-error: "<red>Registration error. Please try again.</red>"
+
+login-success: "<green><bold>Successfully logged in!</bold></green>"
+login-welcome: "<gray>Have fun, <{color1}><bold>{player}</bold></{color1}>!</gray>"
+login-not-registered: "<red>You don't have an account yet!</red>"
+login-not-registered-hint: "<gray>Create one: <{color1}>/register <password> <password></{color1}></gray>"
+login-wrong-password: "<red>Wrong password!</red>"
+login-attempts-remaining: "<gray>{remaining} attempt(s) remaining.</gray>"
+login-last-attempt: "<dark_red><bold>Last attempt!</bold></dark_red>"
+login-already-authenticated: "<yellow>You are already logged in!</yellow>"
+login-usage: "<yellow>Usage: /login <password></yellow>"
+
+kick-too-many-attempts: "\n<{color1}><bold>{name1}</bold></{color1}><{color2}><bold>{name2}</bold></{color2}>\n\n<red>Too many failed attempts.</red>\n<gray>Reconnect to try again.</gray>\n"
+kick-login-timeout: "\n<{color1}><bold>{name1}</bold></{color1}><{color2}><bold>{name2}</bold></{color2}>\n\n<red>Authentication timeout.</red>\n<gray>You took too long to log in.</gray>\n"
+
+blocked-chat: "<red>Authenticate first!</red>"
+blocked-command: "<red>You must authenticate first!</red>"
+
+title-login-success: "<green><bold>Connected!</bold></green>"
+title-login-sub: "<{color1}>Enjoy {name1}{name2}</{color1}>"
+title-register-success: "<green><bold>Welcome!</bold></green>"
+title-register-sub: "<{color1}>Account created</{color1}>"
+
+admin-reloaded: "<green>Configuration reloaded!</green>"
+admin-info-header: "<{color1}>{name1}{name2} v{version}</{color1}>"
+admin-info-accounts: "<gray>Registered accounts: <white>{count}</white></gray>"
+admin-info-online-auth: "<gray>Authenticated online: <green>{count}</green></gray>"
+admin-info-language: "<gray>Language: <white>{lang}</white></gray>"
+admin-info-premium: "<gray>Premium auto-login: <white>{status}</white></gray>"
+admin-no-permission: "<red>No permission!</red>"
+
+premium-detected: "<aqua>Premium account detected - auto-login!</aqua>"
+crack-detected: "<yellow>Offline account detected.</yellow>"

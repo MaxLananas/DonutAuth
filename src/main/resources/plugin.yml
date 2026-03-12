@@ -1,0 +1,27 @@
+name: LockAuth
+version: '2.1.0'
+main: com.donutauth.DonutAuth
+api-version: '1.21'
+folia-supported: true
+description: Premium and Crack authentication system
+authors: [LockAuth]
+
+commands:
+  register:
+    description: Create an account
+    usage: /register <password> <password>
+    aliases: [reg]
+  login:
+    description: Log into your account
+    usage: /login <password>
+    aliases: [l]
+  lockauth:
+    description: Admin command
+    usage: /lockauth <reload|info|debug>
+    aliases: [lauth]
+    permission: lockauth.admin
+
+permissions:
+  lockauth.admin:
+    description: Access to admin commands
+    default: op
