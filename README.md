@@ -227,3 +227,5 @@ src/main/resources/
     config.yml               Default configuration
     lang/                    Language files (en.yml, fr.yml, es.yml, ...)
 ```
+## LICENSE
+See the [LICENSE](LICENSE) file for the full text.
